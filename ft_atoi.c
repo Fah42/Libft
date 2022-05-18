@@ -6,12 +6,11 @@
 /*   By: fhadhri <fhadhri@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/08 17:06:16 by fhadhri           #+#    #+#             */
-/*   Updated: 2022/05/17 11:08:06 by fhadhri          ###   ########.fr       */
+/*   Updated: 2022/05/18 14:56:00 by fhadhri          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
 
 int	ft_atoi(const char *nptr)
 {
@@ -38,13 +37,3 @@ int	ft_atoi(const char *nptr)
 	}
 	return (res * is_neg);
 }
-
-int	main(void)
-{
-	const char	nptr[] = "\e475";
-
-	printf("result of atoi : %i\n", atoi(nptr));
-	printf("result my funct: %i", ft_atoi(nptr));
-	return (0);
-}
-

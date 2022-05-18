@@ -6,7 +6,7 @@
 /*   By: fhadhri <fhadhri@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/15 10:42:39 by fhadhri           #+#    #+#             */
-/*   Updated: 2022/05/16 16:50:48 by fhadhri          ###   ########.fr       */
+/*   Updated: 2022/05/18 14:58:12 by fhadhri          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,7 +42,6 @@ char	*ft_itoa(int n)
 	long	nn;
 
 	nn = n;
-
 	i = ft_intlen(nn);
 	dest = (char *)malloc(sizeof(char) * (i + 1));
 	if (!(dest))
@@ -63,12 +62,3 @@ char	*ft_itoa(int n)
 	}
 	return (dest);
 }
-/*
-int	main(void)
-{
-	int		n;
-
-	n = -2147483648;
-	printf("%s\n", ft_itoa(n));
-	return (0);
-}*/
