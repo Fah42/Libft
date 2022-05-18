@@ -6,7 +6,7 @@
 #    By: fhadhri <fhadhri@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/05/16 16:12:57 by fhadhri           #+#    #+#              #
-#    Updated: 2022/05/18 15:47:33 by fhadhri          ###   ########.fr        #
+#    Updated: 2022/05/18 22:08:56 by fhadhri          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -24,6 +24,10 @@ BONUS			=	ft_lstnew.c \
 					ft_lstadd_front.c \
 					ft_lstsize.c \
 					ft_lstlast.c \
+					ft_lstadd_back \
+					ft_lstdelone \
+					ft_lstclear \
+					ft_lstiter \
 
 BONUS_OBJS		= $(BONUS:.c=.o)
 

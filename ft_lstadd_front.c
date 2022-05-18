@@ -6,7 +6,7 @@
 /*   By: fhadhri <fhadhri@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/18 15:09:24 by fhadhri           #+#    #+#             */
-/*   Updated: 2022/05/18 15:09:28 by fhadhri          ###   ########.fr       */
+/*   Updated: 2022/05/18 17:41:31 by fhadhri          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	ft_lstadd_front(t_list **lst, t_list *new)
 {
-	if (lst || new)
+	if (lst)
 	{
 		if (*lst)
 		{
