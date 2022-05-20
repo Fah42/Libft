@@ -6,12 +6,11 @@
 /*   By: fhadhri <fhadhri@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/14 11:32:08 by fhadhri           #+#    #+#             */
-/*   Updated: 2022/05/14 15:34:00 by fhadhri          ###   ########.fr       */
+/*   Updated: 2022/05/19 15:01:07 by fhadhri          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
 
 int	ft_nombre_de_mots(char const *s, const char c)
 {
@@ -93,20 +92,3 @@ char	**ft_split(char const *s, char c)
 	tab[nombre_de_tab] = 0;
 	return (tab);
 }
-
-/*int	main(void)
-{
-	char s[] = "   lorem   ipsum dolor     sit amet, consectetur   
-				adipiscing elit. Sed non risus. Suspendisse   ";
-	char c = ' ';
-	int	i = 0;
-	char **tab;
-
-	tab = ft_split(s, c);
-	while (tab[i])
-	{
-		printf("%s\n", tab[i]);
-		i++;
-	}
-	return (0);
-}*/

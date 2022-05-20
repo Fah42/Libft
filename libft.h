@@ -6,7 +6,7 @@
 /*   By: fhadhri <fhadhri@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/16 16:13:09 by fhadhri           #+#    #+#             */
-/*   Updated: 2022/05/18 22:27:49 by fhadhri          ###   ########.fr       */
+/*   Updated: 2022/05/19 14:52:59 by fhadhri          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,12 +23,6 @@ typedef struct s_list
 	void			*content;
 	struct s_list	*next;
 }				t_list;
-
-typedef struct s_split_next
-{
-	size_t	start;
-	size_t	length;
-}				t_split_next;
 
 int				ft_atoi(const char *str);
 

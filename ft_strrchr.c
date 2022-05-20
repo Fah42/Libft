@@ -6,7 +6,7 @@
 /*   By: fhadhri <fhadhri@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/05 10:10:02 by fhadhri           #+#    #+#             */
-/*   Updated: 2022/05/17 10:31:19 by fhadhri          ###   ########.fr       */
+/*   Updated: 2022/05/19 14:41:51 by fhadhri          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	while (i >= 0)
 	{		
-		if (s[i] == c)
+		if (s[i] == (char)c)
 		{
 			return ((char *)&s[i]);
 		}
@@ -31,12 +31,3 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	return (NULL);
 }
-/*
-int main(void)
-{
-	char s[] = "tripouille";
-	int c = 256;
-
-	printf("%p", ft_strrchr(s, c));
-	return 0;
-}*/
